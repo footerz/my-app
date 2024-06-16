@@ -15,10 +15,10 @@ In the project directory, you can run:
 `yarn start`
 
 Visit home page
-http://localhost:3000/player/{playerId} //example playerId = dcab3e25bcf943dbbb60fe840261a810
+`http://localhost:3000/player/{playerId}` //example playerId = dcab3e25bcf943dbbb60fe840261a810
 
 Deep link to a specific hole and shot
-http://localhost:3000/player/{playerId}/hole/{holeNo}/shot/{shotNo}
+`http://localhost:3000/player/{playerId}/hole/{holeNo}/shot/{shotNo}`
 
 ## Jest test coverage
 
@@ -34,3 +34,7 @@ To run the tests in headless mode
 
 To run the tests in UI mode
 `yarn playwright test --ui`
+
+## Sandbox integration example
+
+`https://codesandbox.io/p/sandbox/widget-jkj2yn?file=%2Findex.html%3A38%2C88`
