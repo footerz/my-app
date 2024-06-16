@@ -1,0 +1,34 @@
+.tab-text {
+  font-size: 0.875rem;
+  padding: 3px 0 5px 0;
+}
+
+.tab-text > span {
+  font-weight: bold;
+}
+
+.category-key {
+  font-size: 0.6875rem;
+}
+
+.category-label {
+  font-size: 0.875rem;
+  font-weight: bold;
+  margin: 0.625rem 0;
+}
+
+.category-label span {
+  font-size: 2.1875rem;
+}
+
+.category-container {
+  justify-content: space-evenly;
+}
+
+.fillBar-label {
+  position: absolute;
+  top: 6.0625rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: var(--black);
+}

@@ -1,0 +1,32 @@
+.player-wrapper {
+  align-items: center;
+  margin-bottom: 1.875rem;
+}
+
+.player-name {
+  font-weight: bold;
+  font-size: 0.9375rem;
+  margin: 0.625rem 0;
+}
+
+.player-detail {
+  font-size: 0.875rem;
+}
+
+.avatar {
+  height: 6.25rem;
+  width: 6.25rem;
+  border-radius: 3.125rem;
+  border: 1.5px solid var(--black);
+}
+
+@media only screen and (max-width: 375px) {
+  .avatar {
+    height: 3.75rem;
+    width: 3.75rem;
+  }
+
+  .player-wrapper {
+    margin-bottom: 0.9375rem;
+  }
+}

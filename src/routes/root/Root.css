@@ -1,0 +1,35 @@
+.wrapper {
+  height: calc(100vh - 1.875rem);
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0.9375rem;
+  margin: 0.9375rem;
+  border: 1px solid rgba(192, 198, 203, 1);
+  border-radius: 0.25rem;
+  box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000,
+    0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.width-100 {
+  width: 100%;
+}

@@ -1,0 +1,23 @@
+.shot-quality-wrapper {
+  height: 8.75rem;
+  width: 8.75rem;
+  position: absolute;
+  top: 5.625rem;
+  left: 1.25rem;
+}
+
+.shot-quality-label {
+  font-size: 0.8125rem;
+  font-weight: bold;
+}
+
+.background {
+  height: 6.5rem;
+  width: 5.6875rem;
+  background: var(--white);
+  position: absolute;
+  top: 6.125rem;
+  left: 2.8125rem;
+  border-radius: 0.25rem;
+  border: var(--border);
+}

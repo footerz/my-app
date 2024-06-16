@@ -1,0 +1,25 @@
+.progress {
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: calc(infinity * 1px);
+  font-family: sans-serif;
+  background: conic-gradient(
+    var(--color) calc(var(--percentage, 1) * 0.5%),
+    transparent calc(var(--percentage, 1) * 0.5%)
+  );
+  display: flex;
+  font-weight: bold;
+}
+
+.progress .number {
+  background: var(--lightGrey);
+  width: 88%;
+  height: 88%;
+  color: var(--black);
+  border-radius: inherit;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+}

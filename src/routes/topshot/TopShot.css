@@ -1,0 +1,37 @@
+.back-button {
+  position: absolute;
+  top: 2.8125rem;
+  left: 2.8125rem;
+  border: var(--border);
+  border-radius: 0.25rem;
+  background: var(--white);
+  z-index: 1;
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: var(--black);
+
+  &:hover {
+    background-color: var(--lightGrey);
+  }
+}
+
+.back-chevron {
+  transform: rotate(180deg);
+  margin-right: 5px;
+}
+
+.hole-details-wrapper {
+  position: absolute;
+  top: 2.8125rem;
+  right: 2.8125rem;
+  color: var(--white);
+  z-index: 1;
+  text-align: right;
+}
+
+.hole-details {
+  max-width: 8.75rem;
+  font-size: 0.75rem;
+  color: var(--white);
+  margin-bottom: 0.5rem;
+}
